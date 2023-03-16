@@ -99,6 +99,7 @@ body {
     margin-top: 4%;
     display: flex;
     margin-bottom: 70px;
+    justify-content: space-between;
 }
 
 h1 {
@@ -109,7 +110,7 @@ h1 {
     background-color: rgb(225, 222, 222);
     width: 950px;
     height: 500px;
-    margin-left: 6%;
+    margin-left: 90px;
     font-size: 20px;
     border-radius: 9px;
 }
@@ -120,43 +121,44 @@ h1 {
 }
 
 .rightcont {
-    margin-right: 10%;
+    margin-right: 15%;
     margin-left: 6%;
+
 }
 
 .rightcont img {
-    height: 400px;
+    height: 465px;
     border-radius: 15px;
 }
 
-.rightcont__text{
+.rightcont__text {
     margin-left: 35px;
     font-size: 32px;
 }
-  
-.rightcont__text span{
+
+.rightcont__text span {
     display: inline-block;
-  -moz-transform: scale(-1, 1);
- -webkit-transform: scale(-1, 1);
-  transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    transform: scale(-1, 1);
 }
 
-.janr h1{
+.janr h1 {
     text-align: center;
 }
 
-.janr h2{
+.janr h2 {
     justify-content: center;
     align-items: center;
 }
 
-.janrs{
+.janrs {
     padding-top: 5%;
-    padding-left: 3%;
+    justify-content: center;
     display: flex;
 }
 
-.prim img{
+.prim img {
     height: 300px;
     width: 300px;
     margin-right: 100px;
@@ -165,20 +167,29 @@ h1 {
     margin-top: 30px;
 }
 
-.variant__back{
-    background-color:rgb(225, 222, 222) ;
+.variant__back {
+    background-color: rgb(225, 222, 222);
     height: 750px;
     width: 420px;
     border-radius: 10%;
     margin-left: 33px;
 }
 
-.variant h2{
-    font-size:  33px;
+.variant h2 {
+    font-size: 33px;
     text-align: center;
 }
 
-.variant{
+.variant {
+    margin: 0 30px;
     font-size: 20px;
     text-align: center;
+}
+
+.var {
+    margin: 0 20px;
+}
+
+.Kritica {
+    padding-top: 70px;
 }
