@@ -37,7 +37,6 @@ header {
 .log-in {
     margin-top: 13px;
     background-color: rgb(223, 219, 219);
-    content-visibility: ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +50,6 @@ header {
     color: white;
     border-radius: 35px;
     background-color: black;
-    content-visibility: ;
     display: flex;
     justify-content: center;
 }
@@ -60,14 +58,12 @@ header {
     color: white;
     border-radius: 35px;
     background-color: black;
-    content-visibility: ;
     display: flex;
     justify-content: center;
 }
 
 .log-out {
     margin-top: 13px;
-    content-visibility: ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,6 +98,7 @@ body {
 .main {
     margin-top: 4%;
     display: flex;
+    margin-bottom: 70px;
 }
 
 h1 {
@@ -110,9 +107,9 @@ h1 {
 
 .leftcont {
     background-color: rgb(225, 222, 222);
-    width: 1000px;
+    width: 950px;
     height: 500px;
-    margin-left: 7%;
+    margin-left: 6%;
     font-size: 20px;
     border-radius: 9px;
 }
@@ -123,11 +120,65 @@ h1 {
 }
 
 .rightcont {
-    margin-left: auto;
-    margin-right: 13%;
+    margin-right: 10%;
+    margin-left: 6%;
 }
 
 .rightcont img {
     height: 400px;
     border-radius: 15px;
+}
+
+.rightcont__text{
+    margin-left: 35px;
+    font-size: 32px;
+}
+  
+.rightcont__text span{
+    display: inline-block;
+  -moz-transform: scale(-1, 1);
+ -webkit-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.janr h1{
+    text-align: center;
+}
+
+.janr h2{
+    justify-content: center;
+    align-items: center;
+}
+
+.janrs{
+    padding-top: 5%;
+    padding-left: 3%;
+    display: flex;
+}
+
+.prim img{
+    height: 300px;
+    width: 300px;
+    margin-right: 100px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.variant__back{
+    background-color:rgb(225, 222, 222) ;
+    height: 750px;
+    width: 420px;
+    border-radius: 10%;
+    margin-left: 33px;
+}
+
+.variant h2{
+    font-size:  33px;
+    text-align: center;
+}
+
+.variant{
+    font-size: 20px;
+    text-align: center;
 }
